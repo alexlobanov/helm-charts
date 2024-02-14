@@ -10,7 +10,7 @@ Please refer to Helm's [documentation](https://helm.sh/docs/) to get started.
 Once Helm is set up properly, add the repo as follows:
 
 ```console
-helm repo add gadsme https://gadsme.github.io/charts
+helm repo add alexlobanov https://alexlobanov.github.io/helm-charts
 ```
 
 You can then run `helm search repo gadsme` to see the charts.
