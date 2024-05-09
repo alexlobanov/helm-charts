@@ -42,8 +42,8 @@
 {{- include "cube.env.database.trino" (set $i "datasource" $e) }}
 {{- end }}
 {{- end }}
-{{- if gt (len $datasources) 1 }}
+{{- if gt (len $datasources_worker) 1 }}
 - name: CUBEJS_DATASOURCES
-  value: {{ join "," $datasources | quote }}
+  value: {{ join "," $datasources_worker | quote }}
 {{- end }}
 {{- end }}
