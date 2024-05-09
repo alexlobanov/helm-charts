@@ -2,6 +2,9 @@
 
 The release numbering uses [semantic versioning](http://semver.org).
 
+## 2.1.1
+Add init container support
+
 ## 2.1.0
 
 - update to cube 0.34.23

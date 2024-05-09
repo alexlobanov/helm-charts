@@ -58,7 +58,7 @@ spec:
               containerPort: {{ .Values.config.apiPort }}
               protocol: TCP
           env:
-            {{- include "cube.env" . | nindent 12 }}
+            {{- include "cubeworker.env" . | nindent 12 }}
             - name: CUBEJS_REFRESH_WORKER
               value: "true"
             {{- if .Values.extraEnvVars }}
